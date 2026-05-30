@@ -23,7 +23,7 @@ const data = JSON.parse(contentRaw);
 
 const pageTitle = `Newsletter Fedaiisf — ${data.issue} · ${data.date}`;
 const description = data.lead?.deck || `Newsletter settimanale Fedaiisf — ${data.issue}`;
-const ogImage = data.lead?.image || '';
+const ogImage = data.ogImage || data.lead?.image || '';
 const url = data.publicUrl || '';
 
 const meta = [
@@ -50,7 +50,7 @@ const meta = [
 let out = template;
 
 out = out.replace(
-  /<!--META-->[\s\S]*?<link rel="apple-touch-icon" href="assets\/Logo\.png" \/>/,
+  /<!--META-->[\s\S]*?<link rel="apple-touch-icon" href="assets\/logo-fedaiisf\.png" \/>/,
   meta
 );
 
