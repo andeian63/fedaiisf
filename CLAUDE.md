@@ -97,7 +97,7 @@ Crea il file `editions/YYYY-MM-DD/content.json` seguendo lo schema di `content.e
 
 **Per il pull quote:** estrai una frase significativa da uno degli articoli della settimana (max 18 parole), oppure dall'editoriale Fedaiisf. Mai inventare citazioni.
 
-**Per `publicUrl`:** sempre nel formato `https://fedaiisf.vercel.app/editions/YYYY-MM-DD/`.
+**Per `publicUrl`:** sempre nel formato `https://fedaiisf-newsletter.vercel.app/editions/YYYY-MM-DD/`.
 
 ## Step 6 — Build HTML
 
@@ -128,7 +128,7 @@ Vercel è collegato al repo `enricodeia/fidaiisf` e fa deploy automatico ad ogni
 > ✅ Newsletter pubblicata.
 >
 > **Link da condividere su WhatsApp:**
-> https://fedaiisf.vercel.app/editions/YYYY-MM-DD/
+> https://fedaiisf-newsletter.vercel.app/editions/YYYY-MM-DD/
 >
 > Apri il link nel browser e clicca "Condividi" per inviarla.
 
@@ -139,8 +139,8 @@ Vercel è collegato al repo `enricodeia/fidaiisf` e fa deploy automatico ad ogni
 Repository: `https://github.com/enricodeia/fidaiisf`
 Branch: `main`
 Hosting: Vercel (progetto `fidaiisf`), deploy automatico su push a `main`
-URL pubblico base: `https://fedaiisf.vercel.app/`
-Le edizioni vivono in `/editions/YYYY-MM-DD/` → URL `https://fedaiisf.vercel.app/editions/YYYY-MM-DD/`
+URL pubblico base: `https://fedaiisf-newsletter.vercel.app/`
+Le edizioni vivono in `/editions/YYYY-MM-DD/` → URL `https://fedaiisf-newsletter.vercel.app/editions/YYYY-MM-DD/`
 
 Le credenziali git sono già configurate sul computer (token salvato in Windows Credential Manager). Non chiedere mai all'utente di autenticarsi.
 
