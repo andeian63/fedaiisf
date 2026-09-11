@@ -21,7 +21,7 @@ const template = readFileSync('newsletter-template.html', 'utf8');
 const contentRaw = readFileSync(join(editionDir, 'content.json'), 'utf8');
 const data = JSON.parse(contentRaw);
 
-const pageTitle = `Newsletter Fedaiisf — ${data.issue} · ${data.date}`;
+const pageTitle = data.pageTitle || `Newsletter Fedaiisf — ${data.issue} · ${data.date}`;
 const description = data.lead?.deck || `Newsletter settimanale Fedaiisf — ${data.issue}`;
 const ogImage = data.ogImage || data.lead?.image || '';
 const url = data.publicUrl || '';
