@@ -1,86 +1,97 @@
 {
-  "issue": "N° 52",
-  "date": "Giugno 2026",
-  "dateShort": "Giugno 2026",
+  "issue": "N° 54",
+  "date": "Agosto 2026",
+  "dateShort": "Agosto 2026",
   "publicUrl": "https://fedaiisfnewsletter.vercel.app/editions/2026-04-26/",
   "ogImage": "https://fedaiisfnewsletter.vercel.app/assets/logo-fedaiisf.png",
-  "pageTitle": "FEDAIISF - NEWSLETTER GIUGNO 2026",
+  "pageTitle": "FEDAIISF - NEWSLETTER AGOSTO 2026",
   "lead": {
     "kicker": "In primo piano",
-    "label": "Norme",
-    "title": "Nuovo Ordine degli informatori scientifici: prosegue l'iter normativo per l'istituzione",
-    "deck": "La proposta di legge per l'istituzione dell'Ordine professionale degli Informatori scientifici del farmaco approda all'ufficio di presidenza della Commissione della Camera per l'incardinazione. Una tappa attesa dalla categoria, che avvicina il riconoscimento giuridico della professione e definirà requisiti, formazione e responsabilità deontologiche.",
+    "label": "Professione",
+    "title": "Siglato il protocollo d'intesa Fedaiisf-Randstad, un ecosistema di opportunità professionali per gli iscritti",
+    "deck": "Fedaiisf ha firmato un protocollo d'intesa con Randstad Italia, agenzia per il lavoro autorizzata dal Ministero del Lavoro. L'accordo apre agli iscritti un ecosistema di servizi per il mercato del lavoro nel settore Life Sciences: consulenza gratuita, analisi del curriculum, orientamento alla carriera e accesso privilegiato a offerte, webinar e recruiting day. Per la categoria è uno strumento concreto di ricollocazione e valorizzazione professionale.",
     "source": "Redazione Fedaiisf",
-    "date": "15 maggio 2026",
-    "url": "https://www.fedaiisf.it/nuovo-ordine-informatori-del-farmaco-prosegue-iter-normativo-per-listituzione/",
-    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/05/Cannizzaro-commissione.png",
-    "imageLabel": "Commissione Camera — Nuovo Ordine ISF"
+    "date": "1 settembre 2026",
+    "url": "https://www.fedaiisf.it/siglato-protocollo-dintesa-fedaiisf-randstad-un-ecosistema-di-opportunita-professionali-dedicato-agli-iscritti-fedaiisf/",
+    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/randstad-fedaiisf-logo-3-1024x558.png",
+    "imageLabel": "Protocollo d'intesa Fedaiisf — Randstad Italia"
   },
   "articles": [
     {
-      "category": "Professione",
-      "categoryColor": "green",
-      "title": "Ampia e qualificata partecipazione al convegno Fedaiisf a Cosmofarma 2026",
-      "summary": "Il convegno Fedaiisf a Cosmofarma 2026 ha registrato ampia e qualificata partecipazione. Al centro etica, innovazione e ruolo dell'Informatore scientifico nell'evoluzione del Servizio sanitario nazionale.",
-      "source": "Redazione Fedaiisf",
-      "date": "Giugno 2026",
-      "url": "https://www.fedaiisf.it/ampia-e-qualificata-partecipazione-al-convegno-fedaiisf-a-cosmofarma-2026/",
-      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/05/Fedaiisf-Bologna-26-780x470.png"
+      "category": "Norme",
+      "categoryColor": "blue",
+      "title": "ANAC pubblica il nuovo Catalogo sui rischi corruttivi in sanità",
+      "summary": "ANAC ha pubblicato il Catalogo dei rischi corruttivi nel settore sanitario, approvato con delibera del 29 luglio. Le aziende del Servizio sanitario nazionale possono usarlo per la sezione dedicata del PIAO.",
+      "source": "ANAC via Fedaiisf",
+      "date": "31 agosto 2026",
+      "url": "https://www.fedaiisf.it/anac-pubblicato-il-nuovo-catalogo-sui-rischi-corruttivi-in-sanita/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2023/07/anac-farmaci-.png"
     },
     {
       "category": "Professione",
       "categoryColor": "green",
-      "title": "Evento Fedaiisf l'8 maggio a Cosmofarma a Bologna",
-      "summary": "Fedaiisf porta a Cosmofarma il tema \"L'informazione scientifica nel SSN: etica e innovazione\". Un confronto con istituzioni, industria e professionisti dell'informazione sul farmaco.",
-      "source": "Fedaiisf",
-      "date": "8 maggio 2026",
-      "url": "https://www.fedaiisf.it/evento-fedaiisf-venerdi-8-maggio-alle-15-a-cosmofarma-a-bologna/",
-      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/04/Cosmofarma-2026-780x470.png"
+      "title": "Convegno AboutPharma 2026 sull'informazione scientifica. Le riflessioni del segretario federale Antonio Daniele",
+      "summary": "Al convegno AboutPharma 2026 dedicato all'informazione scientifica nessun Informatore scientifico del farmaco è stato invitato come relatore. Il segretario federale Antonio Daniele raccoglie le sue riflessioni sull'assenza.",
+      "source": "Redazione Fedaiisf",
+      "date": "13 agosto 2026",
+      "url": "https://www.fedaiisf.it/convegno-aboutpharma-2026-dedicato-allinformazione-scientifica-riflessioni-del-segretario-federale-fedaiisf-antonio-daniele/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/08/aboutpharma-1024x607.jpg"
     },
     {
       "category": "Norme",
       "categoryColor": "blue",
-      "title": "F Press. Informatori scientifici del farmaco, accelera la pdl per l'istituzione dell'albo",
-      "summary": "F Press riporta che la proposta di legge per l'istituzione dell'albo degli Informatori scientifici del farmaco guadagna concretezza in Parlamento. Un passo verso il riconoscimento giuridico della categoria.",
-      "source": "F Press",
-      "date": "14 maggio 2026",
-      "url": "https://www.fedaiisf.it/f-press-informatori-scientifici-del-farmaco-accelera-la-pdl-per-listituzione-dellalbo/",
-      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/05/Aula-Commissione-Affari-Sociali.png"
+      "title": "Farmindustria pubblica il nuovo Codice Deontologico",
+      "summary": "Farmindustria ha pubblicato il 28 luglio il nuovo Codice Deontologico. Il capitolo 2 ridefinisce le regole dell'informazione scientifica diretta, dalla documentabilità dei contenuti alla condotta dell'Informatore scientifico del farmaco.",
+      "source": "Farmindustria via Fedaiisf",
+      "date": "30 luglio 2026",
+      "url": "https://www.fedaiisf.it/farmindustria-nuovo-codice-deontologico/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/07/ISF-dal-medico-1024x528.png"
     },
     {
       "category": "Professione",
       "categoryColor": "green",
-      "title": "I \"silenti\" Enasarco. Un'ingiustizia dimenticata",
-      "summary": "Una lettera di Francesco Briganti su Huffpost riporta in primo piano la questione dei \"silenti\" Enasarco. Un nodo previdenziale storico che colpisce migliaia di iscritti senza pensione effettiva.",
-      "source": "Huffpost via Fedaiisf",
-      "date": "29 aprile 2026",
-      "url": "https://www.fedaiisf.it/i-silenti-enasarco-uningiustizia-dimenticata/",
-      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/04/enasarco-silenti-780x470.png"
+      "title": "Premio Le Eccellenze dell'Informazione Scientifica, Fedaiisf protagonista al MAXXI",
+      "summary": "Al MAXXI di Roma Fedaiisf ha consegnato il premio per l'informazione scientifica tradizionale. Il presidente Francesco Ferrari è stato invitato come padrino, rappresentato sul palco da Mario Pescheta.",
+      "source": "Comunicato stampa Fedaiisf",
+      "date": "1 luglio 2026",
+      "url": "https://www.fedaiisf.it/premio-le-eccellenze-dellinformazione-scientifica-fedaiisf-protagonista-al-maxxi/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/07/titolo-premio-1024x541.png"
     },
     {
       "category": "Professione",
       "categoryColor": "green",
-      "title": "Informazione scientifica sul farmaco: ruolo associativo sulla normativa italiana (1946-2006)",
-      "summary": "Riccardo Bevilacqua ricostruisce il ruolo dell'AIISF nell'iter legislativo della Riforma sanitaria del 1978 e nella normativa italiana fino al 2006. Un percorso che ha plasmato i confini attuali della professione.",
-      "source": "Riccardo Bevilacqua",
-      "date": "Giugno 2026",
-      "url": "https://www.fedaiisf.it/informazione-scientifica-sul-farmaco-ruolo-associativo-sulla-normativa-italiana-1946-2006/",
-      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/05/IMG_1432-780x470.jpg"
+      "title": "Il video dell'intervento di Massimo Camatti (Fedaiisf) a Radio Canale Italia",
+      "summary": "Massimo Camatti, dell'Esecutivo federale Fedaiisf, ha spiegato a Radio Canale Italia il ruolo dell'Informatore scientifico del farmaco. L'intervista per StoryTime è disponibile in video con la trascrizione integrale.",
+      "source": "Radio Canale Italia via Fedaiisf",
+      "date": "15 giugno 2026",
+      "url": "https://www.fedaiisf.it/intervento-fedaiisf-a-radio-canale-italia-intervista-a-massimo-camatti/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/05/camatti-a-radio-italia-1024x628.png"
     }
   ],
   "pull": {
-    "text": "L'interesse del benessere del paziente deve rimanere nelle mani dell'operatore sanitario che valuta usando la sua esperienza.",
-    "cite": "Nuovo Ordine informatori scientifici — Fedaiisf, 15 maggio 2026"
+    "text": "C'è da chiedersi che valore può avere un convegno sugli informatori scientifici senza informatori scientifici.",
+    "cite": "Convegno AboutPharma 2026 — Fedaiisf, 13 agosto 2026"
   },
   "comitato": {
     "groups": [
       {
         "label": "Direzione",
-        "names": ["Francesco Ferrari", "Riccardo Bevilacqua"]
+        "names": [
+          "Francesco Ferrari",
+          "Riccardo Bevilacqua"
+        ]
       },
       {
         "label": "Redazione",
-        "names": ["Angelo Dazzi", "Andrea Deiana", "Valeria Noce", "Carmen Praticò", "Raffaele Procopio", "Nicole Righi", "Antonio Scano"]
+        "names": [
+          "Angelo Dazzi",
+          "Andrea Deiana",
+          "Valeria Noce",
+          "Carmen Praticò",
+          "Raffaele Procopio",
+          "Nicole Righi",
+          "Antonio Scano"
+        ]
       }
     ]
   }
