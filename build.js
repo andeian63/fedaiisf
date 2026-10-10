@@ -22,7 +22,7 @@ const contentRaw = readFileSync(join(editionDir, 'content.json'), 'utf8');
 const data = JSON.parse(contentRaw);
 
 const pageTitle = data.pageTitle || `Newsletter Fedaiisf — ${data.issue} · ${data.date}`;
-const description = data.lead?.deck || `Newsletter settimanale Fedaiisf — ${data.issue}`;
+const description = data.lead?.deck || `Newsletter Fedaiisf — ${data.issue}`;
 const ogImage = data.ogImage || data.lead?.image || '';
 const url = data.publicUrl || '';
 
@@ -33,7 +33,7 @@ const meta = [
   `<link rel="icon" type="image/png" href="assets/logo-fedaiisf.png" />`,
   `<link rel="apple-touch-icon" href="assets/logo-fedaiisf.png" />`,
   `<meta property="og:type" content="article" />`,
-  `<meta property="og:site_name" content="Fedaiisf — Newsletter settimanale" />`,
+  `<meta property="og:site_name" content="Fedaiisf — Newsletter" />`,
   `<meta property="og:title" content="${escape(pageTitle)}" />`,
   `<meta property="og:description" content="${escape(description)}" />`,
   url ? `<meta property="og:url" content="${escape(url)}" />` : '',

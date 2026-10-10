@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="assets/logo-fedaiisf.png" />
 <link rel="apple-touch-icon" href="assets/logo-fedaiisf.png" />
 <meta property="og:type" content="article" />
-<meta property="og:site_name" content="Fedaiisf — Newsletter settimanale" />
+<meta property="og:site_name" content="Fedaiisf — Newsletter" />
 <meta property="og:title" content="FEDAIISF - NEWSLETTER SETTEMBRE 2026" />
 <meta property="og:description" content="Centinaia di migliaia di lavoratori hanno versato contributi obbligatori a Enasarco senza mai maturare la pensione dell'ente. Per gli Informatori scientifici del farmaco il danno è doppio, perché l'iscrizione nasce da un inquadramento che la stessa giurisprudenza considera improprio. La nota di redazione del direttore editoriale Angelo Dazzi indica le vie, conciliativa e giudiziaria, per farsi riconoscere come lavoratore dipendente." />
 <meta property="og:url" content="https://fedaiisfnewsletter.vercel.app/editions/2026-09-27/" />
@@ -70,7 +70,7 @@
     background: rgba(251,250,246,0.92);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--line);
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center; justify-content: flex-end;
     padding: 12px 20px; gap: 12px;
     font-size: 12.5px; color: var(--ink-3);
   }
@@ -1163,10 +1163,6 @@
         <div className="page">
           {/* Toolbar */}
           <div className="toolbar">
-            <div className="meta">
-              <span className="dot"></span>
-              <span>Edizione settimanale · {DATA.issue}</span>
-            </div>
             <div className="actions">
               <button className="btn ghost" onClick={() => copyLink(DATA.publicUrl)} title="Copia link della newsletter">
                 {Icon.link} <span>Copia link</span>
@@ -1236,7 +1232,7 @@
           <div className="sec-head">
             <div>
               <div className="sec-kicker">Le altre letture</div>
-              <h2 className="sec-title">Notizie della settimana</h2>
+              <h2 className="sec-title">Notizie del mese</h2>
             </div>
             <div className="sec-count">{DATA.articles.length} articoli</div>
           </div>
