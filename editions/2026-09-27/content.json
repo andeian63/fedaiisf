@@ -1,0 +1,77 @@
+{
+  "issue": "N° 55",
+  "date": "Settembre 2026",
+  "dateShort": "Settembre 2026",
+  "publicUrl": "https://fedaiisfnewsletter.vercel.app/editions/2026-09-27/",
+  "ogImage": "https://fedaiisfnewsletter.vercel.app/assets/logo-fedaiisf.png",
+  "pageTitle": "FEDAIISF - NEWSLETTER SETTEMBRE 2026",
+  "lead": {
+    "kicker": "In primo piano",
+    "label": "Professione",
+    "title": "Doppia contribuzione, doppio danno: il caso degli Informatori scientifici del farmaco dentro il fenomeno dei «silenti» Enasarco",
+    "deck": "Centinaia di migliaia di lavoratori hanno versato contributi obbligatori a Enasarco senza mai maturare la pensione dell'ente. Per gli Informatori scientifici del farmaco il danno è doppio, perché l'iscrizione nasce da un inquadramento che la stessa giurisprudenza considera improprio. La nota di redazione del direttore editoriale Angelo Dazzi indica le vie, conciliativa e giudiziaria, per farsi riconoscere come lavoratore dipendente.",
+    "source": "Nota di redazione — Angelo Dazzi",
+    "date": "11 settembre 2026",
+    "url": "https://www.fedaiisf.it/doppia-contribuzione-doppio-danno-il-caso-degli-informatori-scientifici-del-farmaco-dentro-il-fenomeno-dei-silenti-enasarco/",
+    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/ISF-Enasarco-3-1024x742.jpg",
+    "imageLabel": "I «silenti» Enasarco e gli Informatori scientifici del farmaco"
+  },
+  "articles": [
+    {
+      "category": "Professione",
+      "categoryColor": "green",
+      "title": "Accordo di collaborazione fra LILT e Fedaiisf",
+      "summary": "Fedaiisf e LILT hanno firmato un accordo di collaborazione istituzionale per iniziative congiunte sulla prevenzione oncologica e la diagnosi precoce. Claudio Verdolini è il referente Fedaiisf presso la Lega.",
+      "source": "Fedaiisf",
+      "date": "22 settembre 2026",
+      "url": "https://www.fedaiisf.it/accordo-collaborazione-lilt-fedaiisf/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/Screenshot-2026-09-22-alle-13.21.23-1024x592.png"
+    },
+    {
+      "category": "AIFA",
+      "categoryColor": "red",
+      "title": "AIFA pubblica il Rapporto OsMed 2025 sull'uso dei farmaci in Italia",
+      "summary": "Nel 2025 la spesa farmaceutica totale ha raggiunto 39,3 miliardi di euro, in crescita del 6%. Il Rapporto OsMed segnala tirzepatide prima fra i farmaci di fascia A acquistati privatamente.",
+      "source": "AIFA via Fedaiisf",
+      "date": "5 settembre 2026",
+      "url": "https://www.fedaiisf.it/aifa-pubblica-il-rapporto-osmed-2025-luso-dei-farmaci-in-italia-2/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/Osmed-2025.png"
+    },
+    {
+      "category": "Territorio",
+      "categoryColor": "green",
+      "title": "PharmEvolution 2026, l'informazione scientifica al centro del confronto tra professioni e istituzioni",
+      "summary": "A PharmEvolution 2026, il 9 ottobre a Catania, un incontro dell'Ordine dei farmacisti mette a confronto informazione scientifica e farmacia territoriale. Per Fedaiisf partecipa Silvia Brega, vicepresidente nazionale AIISF.",
+      "source": "Fedaiisf",
+      "date": "30 settembre 2026",
+      "url": "https://www.fedaiisf.it/pharmevolution-2026-linformazione-scientifica-al-centro-del-confronto-tra-professioni-e-istituzion/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/pharmevolution-vista-aerea.png"
+    },
+    {
+      "category": "Industria",
+      "categoryColor": "blue",
+      "title": "Chimica e farmaceutica, al via la prima indagine sociale su lavoratori e imprese",
+      "summary": "Federchimica, Farmindustria e i sindacati avviano con l'Università di Milano la prima indagine sociale su imprese e lavoratori della chimica e della farmaceutica. Due questionari misureranno aspettative e impatto dell'intelligenza artificiale.",
+      "source": "Federchimica e Farmindustria via Fedaiisf",
+      "date": "23 settembre 2026",
+      "url": "https://www.fedaiisf.it/chimica-e-farmaceutica-al-via-la-prima-indagine-sociale-su-lavoratori-e-imprese-sostenuta-dalle-parti-sociali/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/mercato-lavoro-evoluzione.png"
+    }
+  ],
+  "pull": {
+    "text": "A contare non è l'etichetta contrattuale ma l'attività concretamente svolta.",
+    "cite": "I «silenti» Enasarco e gli ISF — Fedaiisf, 11 settembre 2026"
+  },
+  "comitato": {
+    "groups": [
+      {
+        "label": "Direzione",
+        "names": ["Francesco Ferrari", "Riccardo Bevilacqua"]
+      },
+      {
+        "label": "Redazione",
+        "names": ["Angelo Dazzi", "Andrea Deiana", "Valeria Noce", "Carmen Praticò", "Raffaele Procopio", "Nicole Righi", "Antonio Scano"]
+      }
+    ]
+  }
+}
