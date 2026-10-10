@@ -8,15 +8,25 @@
   "lead": {
     "kicker": "In primo piano",
     "label": "Professione",
-    "title": "Doppia contribuzione, doppio danno: il caso degli Informatori scientifici del farmaco dentro il fenomeno dei «silenti» Enasarco",
-    "deck": "Centinaia di migliaia di lavoratori hanno versato contributi obbligatori a Enasarco senza mai maturare la pensione dell'ente. Per gli Informatori scientifici del farmaco il danno è doppio, perché l'iscrizione nasce da un inquadramento che la stessa giurisprudenza considera improprio. La nota di redazione del direttore editoriale Angelo Dazzi indica le vie, conciliativa e giudiziaria, per farsi riconoscere come lavoratore dipendente.",
-    "source": "Nota di redazione — Angelo Dazzi",
-    "date": "11 settembre 2026",
-    "url": "https://www.fedaiisf.it/doppia-contribuzione-doppio-danno-il-caso-degli-informatori-scientifici-del-farmaco-dentro-il-fenomeno-dei-silenti-enasarco/",
-    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/pensione-1024x614.png",
-    "imageLabel": "I «silenti» Enasarco: una pensione che resta all’orizzonte"
+    "title": "Il 90% del patrimonio Enasarco è stato versato da agenti di commercio che non ricevono alcun assegno previdenziale",
+    "deck": "Circa 700mila ex agenti di commercio hanno versato per anni contributi obbligatori a Enasarco senza raggiungere i venti anni minimi richiesti per la pensione. Con quei fondi la Cassa siede ai tavoli della finanza, mentre chi li ha versati non riceve alcun assegno. L'inchiesta del Fatto Quotidiano riporta il tema al centro del dibattito e riguarda da vicino gli Informatori scientifici iscritti all'ente.",
+    "source": "Il Fatto Quotidiano via Fedaiisf",
+    "date": "8 settembre 2026",
+    "url": "https://www.fedaiisf.it/il-90-del-patrimonio-enasarco-e-stato-versato-per-anni-da-agenti-di-commercio-che-pero-non-ricevono-alcun-assegno-previdenziale/",
+    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/Enasarco-insegna-1024x530.png",
+    "imageLabel": "Enasarco — i contributi dei «silenti»"
   },
   "articles": [
+    {
+      "category": "Professione",
+      "categoryColor": "green",
+      "title": "Doppia contribuzione, doppio danno: gli Informatori scientifici del farmaco fra i «silenti» Enasarco",
+      "summary": "Una lettera di Antonio Scano, pubblicata con nota di redazione, spiega perché per gli Informatori scientifici il danno è doppio. L'iscrizione a Enasarco nasce da un inquadramento che la giurisprudenza considera improprio.",
+      "source": "Lettera di Antonio Scano — Nota di redazione",
+      "date": "11 settembre 2026",
+      "url": "https://www.fedaiisf.it/doppia-contribuzione-doppio-danno-il-caso-degli-informatori-scientifici-del-farmaco-dentro-il-fenomeno-dei-silenti-enasarco/",
+      "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/pensione-1024x614.png"
+    },
     {
       "category": "Professione",
       "categoryColor": "green",
