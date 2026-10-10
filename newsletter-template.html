@@ -404,6 +404,62 @@
     .pull-logo .ping { width: 72px; height: 72px; margin: -36px 0 0 -36px; }
   }
 
+  /* Invito nel pannello blu */
+  .cta-kicker {
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    font-weight: 600; opacity: 0.82; margin-bottom: 10px;
+  }
+  .cta-text {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 24px; line-height: 1.28;
+    margin: 0 0 18px; letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .cta-btn {
+    display: inline-flex; align-items: center; gap: 9px;
+    background: #fff; color: var(--brand);
+    font: 600 15px/1 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: var(--r-pill);
+    box-shadow: 0 8px 20px -8px rgba(0,0,0,0.35);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .cta-btn:hover { transform: translateY(-1px); box-shadow: 0 12px 26px -10px rgba(0,0,0,0.42); }
+
+  /* Barra social */
+  .social-band {
+    margin: 0 48px 36px;
+    padding: 28px 30px;
+    background: var(--brand-soft);
+    border-radius: var(--r-lg);
+    text-align: center;
+  }
+  .social-band h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px; font-weight: 600;
+    color: var(--ink); margin: 0 0 16px;
+    letter-spacing: -0.01em;
+  }
+  .social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+  .social-links a {
+    display: inline-flex; align-items: center;
+    font: 600 16px/1 'Inter', sans-serif;
+    color: #fff; background: var(--brand);
+    text-decoration: none;
+    padding: 13px 24px;
+    border-radius: var(--r-pill);
+    transition: transform .15s ease, background .15s ease;
+  }
+  .social-links a:hover { background: var(--brand-deep); transform: translateY(-1px); }
+  @media (max-width: 640px) {
+    .cta-text { font-size: 21px; }
+    .social-band { margin: 0 22px 28px; padding: 22px 18px; }
+    .social-band h4 { font-size: 18px; }
+    .social-links a { font-size: 15px; padding: 12px 18px; }
+  }
+
   /* Footer */
   .footer {
     padding: 36px 48px 32px;
@@ -1037,6 +1093,19 @@
       }
     };
 
+    const SOCIALS = DATA.socials || [
+      { label: 'Facebook',  url: 'https://www.facebook.com/fedaiisf.it/' },
+      { label: 'LinkedIn',  url: 'https://www.linkedin.com/company/fedaiisf-isf/' },
+      { label: 'Instagram', url: 'https://www.instagram.com/fedaiisf2025/' },
+      { label: 'YouTube',   url: 'https://www.youtube.com/channel/UC8hC_K7u8bSzwhybt6YgKIA' }
+    ];
+    const CTA = DATA.cta || {
+      kicker: 'Resta aggiornato',
+      text: 'Iscriviti al canale Facebook di Fedaiisf: notizie, documenti e aggiornamenti sulla professione, ogni giorno.',
+      label: 'Vai alla pagina Facebook',
+      url: 'https://www.facebook.com/fedaiisf.it/'
+    };
+
     const subject = `Newsletter Fedaiisf — ${DATA.dateShort}`;
     const intro = `${DATA.lead.title}. ${DATA.lead.deck.split('.')[0]}.`;
     const shareMsg = `${subject}\n${intro}\nLeggi online: ${DATA.publicUrl}`;
@@ -1158,17 +1227,28 @@
             ))}
           </div>
 
-          {/* Pull quote */}
+          {/* Invito a seguire il canale Facebook */}
           <div className="pull" data-reveal="">
             <div className="pull-quote">
-              <blockquote>«{DATA.pull.text}»</blockquote>
-              <cite>— {DATA.pull.cite}</cite>
+              <div className="cta-kicker">{CTA.kicker}</div>
+              <p className="cta-text">{CTA.text}</p>
+              <a className="cta-btn" href={CTA.url} target="_blank" rel="noopener">{CTA.label}</a>
             </div>
             <div className="pull-logo" aria-hidden="true">
               <span className="ping"></span>
               <span className="ping"></span>
               <span className="ping"></span>
               <img src="assets/logo-fedaiisf.png" alt="Fedaiisf" />
+            </div>
+          </div>
+
+          {/* Seguici sui social */}
+          <div className="social-band" data-reveal="">
+            <h4>Seguici sui nostri canali</h4>
+            <div className="social-links">
+              {SOCIALS.map((s, i) => (
+                <a key={i} href={s.url} target="_blank" rel="noopener">{s.label}</a>
+              ))}
             </div>
           </div>
 
@@ -1213,12 +1293,6 @@
 
             <div className="colophon">
               <div>© 2026 Fedaiisf · CF 91011770293</div>
-              <div className="socials">
-                <a href="https://www.facebook.com/fedaiisf.it/" target="_blank" rel="noopener">Facebook</a>
-                <a href="https://www.linkedin.com/company/fedaiisf-isf/" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://www.instagram.com/fedaiisf2025/" target="_blank" rel="noopener">Instagram</a>
-                <a href="https://www.youtube.com/channel/UC8hC_K7u8bSzwhybt6YgKIA" target="_blank" rel="noopener">YouTube</a>
-              </div>
             </div>
           </footer>
         </div>
