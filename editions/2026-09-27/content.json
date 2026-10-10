@@ -13,8 +13,8 @@
     "source": "Nota di redazione — Angelo Dazzi",
     "date": "11 settembre 2026",
     "url": "https://www.fedaiisf.it/doppia-contribuzione-doppio-danno-il-caso-degli-informatori-scientifici-del-farmaco-dentro-il-fenomeno-dei-silenti-enasarco/",
-    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/ISF-Enasarco-3-1024x742.jpg",
-    "imageLabel": "I «silenti» Enasarco e gli Informatori scientifici del farmaco"
+    "image": "https://www.fedaiisf.it/wp-content/uploads/2026/09/pensione-1024x614.png",
+    "imageLabel": "I «silenti» Enasarco: una pensione che resta all’orizzonte"
   },
   "articles": [
     {
@@ -66,11 +66,22 @@
     "groups": [
       {
         "label": "Direzione",
-        "names": ["Francesco Ferrari", "Riccardo Bevilacqua"]
+        "names": [
+          "Francesco Ferrari",
+          "Riccardo Bevilacqua"
+        ]
       },
       {
         "label": "Redazione",
-        "names": ["Angelo Dazzi", "Andrea Deiana", "Valeria Noce", "Carmen Praticò", "Raffaele Procopio", "Nicole Righi", "Antonio Scano"]
+        "names": [
+          "Angelo Dazzi",
+          "Andrea Deiana",
+          "Valeria Noce",
+          "Carmen Praticò",
+          "Raffaele Procopio",
+          "Nicole Righi",
+          "Antonio Scano"
+        ]
       }
     ]
   }
